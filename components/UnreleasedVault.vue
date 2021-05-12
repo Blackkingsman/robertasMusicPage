@@ -157,8 +157,6 @@ export default {
     "orange cyan red1"
     "orange indigo2 red2"
     "yellow indigo2 red3"
-    ". . red4"
-    "purple green blue"
     ;
     grid-gap: 0.3rem;
     justify-items: stretch;
@@ -193,29 +191,6 @@ export default {
   grid-area: red3}
   /* .red3:hover{
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -4px, 0px);
-  } */
-.red4 {
-  grid-area: red4}
-  /* .red4:hover{
-    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -4px, 0px);
-  } */
-.green {
-  grid-area: green }
-  /* .green:hover {
-    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -4px, 0px);
-  } */
-.purple {
-  grid-area: purple}
-  /* .purple:hover{
-  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -4px, 0px);
-  } */
-.blue { grid-area: blue }
-  /* .blue:hover{
-    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -4px, 0px);
   } */
 .yellow {

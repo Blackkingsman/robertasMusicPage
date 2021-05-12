@@ -58,29 +58,29 @@ export default {
           url: 'https://drive.google.com/uc?export=download&id=1Rvybbfj5KDks15M_NYyx_qpXLlJhmThM'
           // cover_art_url: 'https://i.pinimg.com/originals/d3/b8/6c/d3b86cac17b13f95a31cf2c23de4ed38.jpg'
         },
-        {
-          color: 'yellow',
-          title: 'Love Me More',
-          album: '',
-          url: 'https://drive.google.com/uc?export=download&id=1PpzXwxf4ibqC-glQovXsP7qI7z5woQiC'
-          // cover_art_url: 'https://i.scdn.co/image/523aeca7d02ba33ec03dd8837130b83e9c51a130'
-        },
-        {
-          color: 'cyan',
-          id: 3,
-          title: 'Wet Dreamz',
-          album: '',
-          url: 'https://drive.google.com/uc?export=download&id=19v1iWSOud5tt16muoKG3fc55X8gTt_-4'
-          // cover_art_url: 'https://i.pinimg.com/originals/d3/b8/6c/d3b86cac17b13f95a31cf2c23de4ed38.jpg'
-        },
-        {
-          color: 'indigo',
-          id: 4,
-          title: 'Love',
-          album: '',
-          url: 'https://drive.google.com/uc?export=download&id=1gRvnYa-O8gPwcq58nceBwIwDJv2Rb_uF'
-          // cover_art_url: 'https://i.pinimg.com/originals/d3/b8/6c/d3b86cac17b13f95a31cf2c23de4ed38.jpg'
-        },
+        // {
+        //   color: 'yellow',
+        //   title: 'Love Me More',
+        //   album: '',
+        //   url: 'https://drive.google.com/uc?export=download&id=1PpzXwxf4ibqC-glQovXsP7qI7z5woQiC'
+        //   // cover_art_url: 'https://i.scdn.co/image/523aeca7d02ba33ec03dd8837130b83e9c51a130'
+        // },
+        // {
+        //   color: 'cyan',
+        //   id: 3,
+        //   title: 'Wet Dreamz',
+        //   album: '',
+        //   url: 'https://drive.google.com/uc?export=download&id=19v1iWSOud5tt16muoKG3fc55X8gTt_-4'
+        //   // cover_art_url: 'https://i.pinimg.com/originals/d3/b8/6c/d3b86cac17b13f95a31cf2c23de4ed38.jpg'
+        // },
+        // {
+        //   color: 'indigo',
+        //   id: 4,
+        //   title: 'Love',
+        //   album: '',
+        //   url: 'https://drive.google.com/uc?export=download&id=1gRvnYa-O8gPwcq58nceBwIwDJv2Rb_uF'
+        //   // cover_art_url: 'https://i.pinimg.com/originals/d3/b8/6c/d3b86cac17b13f95a31cf2c23de4ed38.jpg'
+        // },
         {
           color: 'red1',
           id: 5,

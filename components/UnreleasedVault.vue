@@ -5,7 +5,7 @@
         v-for="song in songs"
         :key="song.id"
         :class="song.color"
-        :color="song.color.includes('red')? 'red' : song.color + 'lighten-2'"
+        :color="song.color.includes('red')? 'red' : song.color + ' ' + 'lighten-2'"
         tile
         flat
         width="100%"

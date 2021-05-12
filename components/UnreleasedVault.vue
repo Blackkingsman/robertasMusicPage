@@ -147,16 +147,19 @@ export default {
 </script>
 
 <style>
+:root{
+  --main-radius:5px;
+  --main-padding:5;
+}
 .myGrid {
   display: grid;
-  width: 100vw;
   height: 100vh;
   grid-template-columns: 30% 40% 30%;
   grid-template-rows: repeat(3, 33%);
   grid-template-areas:
     "orange cyan red1"
     "orange indigo2 red2"
-    "yellow indigo2 ."
+    "yellow indigo2 red3"
     ;
     grid-gap: 0.3rem;
     justify-items: stretch;
@@ -164,57 +167,71 @@ export default {
 }
 .orange {
   grid-area: orange;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
 }
 /* .orange:hover{
    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -4px, 0px);
 } */
 .indigo {
-  grid-area: indigo2 }
+  grid-area: indigo2;
+   border-radius: var(--main-radius);
+  padding-top: var(--main-padding); }
 /* .indigo2:hover {
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -4px, 0px);
 } */
 .red1 {
-  grid-area: red1 }
+  grid-area: red1;
+   border-radius: var(--main-radius);
+  padding-top: var(--main-padding);}
 /* .red1:hover{
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -4px, 0px);
 } */
 .red2 {
-  grid-area: red2 }
+  grid-area: red2;
+   border-radius: var(--main-radius);
+  padding-top: var(--main-padding);}
 /* .red2:hover{
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -4px, 0px);
   } */
-/* .red3 {
-  grid-area: red3}
+.red3 {
+  grid-area: red3;
+   border-radius: var(--main-radius);
+  padding-top: var(--main-padding);}
   /* .red3:hover{
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -4px, 0px);
-  } */
+  transform: translate3d(0px, -4px, 0px);*/
+
 .yellow {
-  grid-area: yellow
+  grid-area: yellow;
+   border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
 }
 /* .yellow:hover{
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -4px, 0px);
 } */
 .cyan{
-  grid-area: cyan
+  grid-area: cyan;
+   border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
 }
 /* .cyan:hover {
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -4px, 0px);
 } */
-@media only screen and (max-width:960px) {
+@media only screen and (max-width:550px) {
   .myGrid{
-    width: 100vw;
-    height: 100vh;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(7,14.3%);
+  grid-gap: 0.2rem;
+   min-width: max-content;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 3fr 3.4fr 4.5fr 2.9fr 1.1fr;
     grid-template-areas:
-    "oranage"
+    "orange"
     "yellow"
     "cyan"
     "indigo2"
@@ -223,4 +240,5 @@ export default {
     "red3"
   }
 }
+
 </style>

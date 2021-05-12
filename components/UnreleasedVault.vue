@@ -5,7 +5,7 @@
         v-for="song in songs"
         :key="song.id"
         :class="song.color"
-        :color="song.color + 'lighten-2'"
+        :color="song.color.includes('red')? 'red' : song.color + 'lighten-2'"
         tile
         flat
         width="100%"
@@ -96,15 +96,15 @@ export default {
           album: '',
           url: 'https://drive.google.com/uc?export=download&id=1fQ-_5vto1bZPCXBN41tNFyJ2FgemHCRu'
           // cover_art_url: 'https://i.scdn.co/image/523aeca7d02ba33ec03dd8837130b83e9c51a130'
+        },
+        {
+          color: 'red3',
+          id: 7,
+          title: 'Dance All Night',
+          album: '',
+          url: 'https://drive.google.com/uc?export=download&id=1fZsCp6F4ToSn8l4lH13kaDWWTfGG2Nw8'
+          // cover_art_url: 'https://i.scdn.co/image/523aeca7d02ba33ec03dd8837130b83e9c51a130'
         }
-        // {
-        //   color: 'red3',
-        //   id: 7,
-        //   title: 'Dance All Night',
-        //   album: '',
-        //   url: 'https://drive.google.com/uc?export=download&id=1fZsCp6F4ToSn8l4lH13kaDWWTfGG2Nw8'
-        //   // cover_art_url: 'https://i.scdn.co/image/523aeca7d02ba33ec03dd8837130b83e9c51a130'
-        // }
       ]
     };
   },

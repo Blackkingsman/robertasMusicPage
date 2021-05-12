@@ -106,7 +106,7 @@ export default {
           // cover_art_url: 'https://i.scdn.co/image/523aeca7d02ba33ec03dd8837130b83e9c51a130'
         }
       ]
-    };
+    }
   },
   methods: {
     playSong (songurl, songid) {
@@ -157,8 +157,7 @@ export default {
   grid-template-columns: 30% 40% 30%;
   grid-template-rows: repeat(3, 33%);
   grid-template-areas:
-    "orange red green"
-    ;
+    "orange red green";
     grid-gap: 0.3rem;
 }
 .orange {
@@ -166,60 +165,33 @@ export default {
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
-/* .orange:hover{
-   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -4px, 0px);
-} */
 .indigo {
   grid-area: indigo2;
    border-radius: var(--main-radius);
   padding-top: var(--main-padding); }
-/* .indigo2:hover {
-  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -4px, 0px);
-} */
 .red{
   grid-area: red;
    border-radius: var(--main-radius);
   padding-top: var(--main-padding);}
-/* .red1:hover{
-  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -4px, 0px);
-} */
 .green {
   grid-area: green;
    border-radius: var(--main-radius);
   padding-top: var(--main-padding);}
-/* .red2:hover{
-  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -4px, 0px);
-  } */
 .blue {
   grid-area: blue;
    border-radius: var(--main-radius);
   padding-top: var(--main-padding);}
-  /* .red3:hover{
-  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -4px, 0px);*/
 
 .yellow {
   grid-area: yellow;
    border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
-/* .yellow:hover{
-  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -4px, 0px);
-} */
 .cyan{
   grid-area: cyan;
    border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
-/* .cyan:hover {
-  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -4px, 0px);
-} */
 @media only screen and (max-width:550px) {
   .myGrid{
   grid-gap: 0.2rem;
@@ -228,12 +200,8 @@ export default {
     grid-template-rows: 1fr 2fr 3fr 3.4fr 4.5fr 2.9fr 1.1fr;
     grid-template-areas:
     "orange"
-    "yellow"
-    "cyan"
-    "indigo2"
-    "red1"
-    "red2"
-    "red3"
+    "red"
+    "green"
   }
 }
 

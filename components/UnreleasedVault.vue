@@ -162,8 +162,6 @@ export default {
     "yellow indigo2 red3"
     ;
     grid-gap: 0.3rem;
-    justify-items: stretch;
-    align-items: stretch;
 }
 .orange {
   grid-area: orange;

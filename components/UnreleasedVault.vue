@@ -156,9 +156,8 @@ export default {
   height: 100vh;
   grid-template-columns: 30% 40% 30%;
   grid-template-rows: repeat(3, 33%);
-  grid-template-areas:
-    "orange red green";
-    grid-gap: 0.3rem;
+  grid-gap: 0.3rem;
+  grid-template-areas: "blue green ." ;
 }
 .orange {
   grid-area: orange;
@@ -166,8 +165,8 @@ export default {
   padding-top: var(--main-padding);
 }
 .indigo {
-  grid-area: indigo;
-   border-radius: var(--main-radius);
+  grid-area: "indigo";
+  border-radius: var(--main-radius);
   padding-top: var(--main-padding); }
 .red{
   grid-area: red;

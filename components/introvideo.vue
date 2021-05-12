@@ -6,6 +6,7 @@
       muted
       loop
       autoplay
+      playsinline
       src="../assets/video/theWay.mp4"
       type="video/mp4"
     ></video>

@@ -166,7 +166,7 @@ export default {
   padding-top: var(--main-padding);
 }
 .indigo {
-  grid-area: indigo2;
+  grid-area: indigo;
    border-radius: var(--main-radius);
   padding-top: var(--main-padding); }
 .red{

@@ -157,9 +157,7 @@ export default {
   grid-template-columns: 30% 40% 30%;
   grid-template-rows: repeat(3, 33%);
   grid-template-areas:
-    "orange cyan red1"
-    "orange indigo2 red2"
-    "yellow indigo2 red3"
+    "orange red1 red2"
     ;
     grid-gap: 0.3rem;
 }

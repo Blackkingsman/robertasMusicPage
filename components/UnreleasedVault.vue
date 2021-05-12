@@ -58,31 +58,31 @@ export default {
           url: 'https://drive.google.com/uc?export=download&id=1Rvybbfj5KDks15M_NYyx_qpXLlJhmThM'
           // cover_art_url: 'https://i.pinimg.com/originals/d3/b8/6c/d3b86cac17b13f95a31cf2c23de4ed38.jpg'
         },
-        // {
-        //   color: 'yellow',
-        //   title: 'Love Me More',
-        //   album: '',
-        //   url: 'https://drive.google.com/uc?export=download&id=1PpzXwxf4ibqC-glQovXsP7qI7z5woQiC'
-        //   // cover_art_url: 'https://i.scdn.co/image/523aeca7d02ba33ec03dd8837130b83e9c51a130'
-        // },
-        // {
-        //   color: 'cyan',
-        //   id: 3,
-        //   title: 'Wet Dreamz',
-        //   album: '',
-        //   url: 'https://drive.google.com/uc?export=download&id=19v1iWSOud5tt16muoKG3fc55X8gTt_-4'
-        //   // cover_art_url: 'https://i.pinimg.com/originals/d3/b8/6c/d3b86cac17b13f95a31cf2c23de4ed38.jpg'
-        // },
-        // {
-        //   color: 'indigo',
-        //   id: 4,
-        //   title: 'Love',
-        //   album: '',
-        //   url: 'https://drive.google.com/uc?export=download&id=1gRvnYa-O8gPwcq58nceBwIwDJv2Rb_uF'
-        //   // cover_art_url: 'https://i.pinimg.com/originals/d3/b8/6c/d3b86cac17b13f95a31cf2c23de4ed38.jpg'
-        // },
         {
-          color: 'red1',
+          color: 'yellow',
+          title: 'Love Me More',
+          album: '',
+          url: 'https://drive.google.com/uc?export=download&id=1PpzXwxf4ibqC-glQovXsP7qI7z5woQiC'
+          // cover_art_url: 'https://i.scdn.co/image/523aeca7d02ba33ec03dd8837130b83e9c51a130'
+        },
+        {
+          color: 'cyan',
+          id: 3,
+          title: 'Wet Dreamz',
+          album: '',
+          url: 'https://drive.google.com/uc?export=download&id=19v1iWSOud5tt16muoKG3fc55X8gTt_-4'
+          // cover_art_url: 'https://i.pinimg.com/originals/d3/b8/6c/d3b86cac17b13f95a31cf2c23de4ed38.jpg'
+        },
+        {
+          color: 'indigo',
+          id: 4,
+          title: 'Love',
+          album: '',
+          url: 'https://drive.google.com/uc?export=download&id=1gRvnYa-O8gPwcq58nceBwIwDJv2Rb_uF'
+          // cover_art_url: 'https://i.pinimg.com/originals/d3/b8/6c/d3b86cac17b13f95a31cf2c23de4ed38.jpg'
+        },
+        {
+          color: 'red',
           id: 5,
           title: 'Pop It',
           album: '',
@@ -90,7 +90,7 @@ export default {
           // cover_art_url: 'https://i.pinimg.com/originals/d3/b8/6c/d3b86cac17b13f95a31cf2c23de4ed38.jpg'
         },
         {
-          color: 'red2',
+          color: 'blue',
           id: 6,
           title: 'Rich Forever',
           album: '',
@@ -98,7 +98,7 @@ export default {
           // cover_art_url: 'https://i.scdn.co/image/523aeca7d02ba33ec03dd8837130b83e9c51a130'
         },
         {
-          color: 'red3',
+          color: 'green',
           id: 7,
           title: 'Dance All Night',
           album: '',
@@ -157,7 +157,7 @@ export default {
   grid-template-columns: 30% 40% 30%;
   grid-template-rows: repeat(3, 33%);
   grid-template-areas:
-    "orange red1 red2"
+    "orange red green"
     ;
     grid-gap: 0.3rem;
 }
@@ -178,24 +178,24 @@ export default {
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -4px, 0px);
 } */
-.red1 {
-  grid-area: red1;
+.red{
+  grid-area: red;
    border-radius: var(--main-radius);
   padding-top: var(--main-padding);}
 /* .red1:hover{
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -4px, 0px);
 } */
-.red2 {
-  grid-area: red2;
+.green {
+  grid-area: green;
    border-radius: var(--main-radius);
   padding-top: var(--main-padding);}
 /* .red2:hover{
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -4px, 0px);
   } */
-.red3 {
-  grid-area: red3;
+.blue {
+  grid-area: blue;
    border-radius: var(--main-radius);
   padding-top: var(--main-padding);}
   /* .red3:hover{
